@@ -1,22 +1,18 @@
-@mwbrooks @wildabeast @tavispa @hollyschinsky @VitaliiBlagodir @themightychris @aserdiuk @macdonst @hardeep @phoob @manuganji @ianosullivan @gregorypratt
-RawBlameHistory     
-138 lines (119 sloc)  8.47 KB
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
+        id        = "com.phonegap.portfolio"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>Portfolio_Zane</name>
 
-    <description>
-        Hello World sample application that responds to the deviceready event.
-    </description>
+  
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="http://www.zaneaboobacker.com" email="a.zane.a3344@gmail.com">
+        Zane Aboobacker
     </author>
 
     <!--
@@ -24,7 +20,7 @@ RawBlameHistory
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
     -->
-    <preference name="permissions"                value="none"/>
+  <!--  <preference name="permissions"                value="none"/> -->
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
